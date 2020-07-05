@@ -1,4 +1,4 @@
-#File-Server-and-Client
+# Server and Client for File Transfer and Remote Computation
 
 Developers: Mitul Magu, Zeyu Zhang
 Programming Language Used: C++
@@ -32,4 +32,6 @@ Programming Language Used: C++
 6. Typing ./cli rpc calculate_pi will return the value of pi from the server.
 7. Typing ./cli rpc add will prompt the user to enter two numbers. Simply type the two number with space between them and the result will be sent by the server on pressing enter.
 8. Typing ./cli rpc sort will prompt the user to enter an array. Simply type the array elements with spaces between them and the sorted array will be sent by the server on pressing enter.
-9. Typing ./cli rpc matrix_multiply will prompt the user to enter the number of rows and columns in matrix A and the number of columns in matrix B. Enter the elements for both the matrices one by one and the resulting C matrix (multiplication of matrix A and matrix B) will be sent from the server to the client. 
+9. Typing ./cli rpc matrix_multiply will prompt the user to enter the number of rows and columns in matrix A and the number of columns in matrix B. Enter the elements for both the matrices one by one and the resulting C matrix (multiplication of matrix A and matrix B) will be sent from the server to the client.
+  
+More information can be found here: https://mitulmagu.wordpress.com/2019/11/11/file-server-and-client/
