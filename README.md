@@ -1,8 +1,6 @@
 # Server and Client for File Transfer and Remote Computation
 
 Developers: Mitul Magu, Zeyu Zhang
-Programming Language Used: C++
-
 
 ## Detailed Instructions to Execute Code
 1. Install a c++ compiler in your machine. We use g++ and it works fine.
