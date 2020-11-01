@@ -2,6 +2,14 @@
 
 Developers: Mitul Magu, Zeyu Zhang
 
+A file upload and download service based on message-oriented client-server communication has been implemented. A computation service using remote procedure call (RPC) based communication has been deployed and tested on Docker environment.
+
+The file server has four basic operations: UPLOAD, DOWNLOAD, DELETE, and RENAME. We have assumed that the file service is implemented using a connection-oriented protocol, in which the client and server first establish a network connection, negotiate the operation to be performed, and carry out the file transfer through the same connection.
+
+The computation server provides a set of predefined RPCs that can be called from a client. The RPCs support a variety of computations on different types of data structures, including scalar variables, arrays, and matrices.
+
+The server supports four RPCs: calculate_pi(), add(i, j), sort(arrayA), matrix_multiply(matrixA, matrixB, matrixC). The RPCs represent different ways to pass the parameters to the server.
+
 ## Detailed Instructions to Execute Code
 1. Install a c++ compiler in your machine. We use g++ and it works fine.
 2. Once the compiler has been installed for c++ code, change the directory to where the file belongs
